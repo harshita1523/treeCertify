@@ -1,0 +1,24 @@
+<!-- upload.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Excel File</title>
+  <link rel="stylesheet" href="/css/upload.css">
+
+</head>
+<body>
+  
+    <div>
+       <div class="wave"></div>
+       <div class="wave"></div>
+       <div class="wave"></div>
+    </div>
+
+  <h1>Upload Excel File</h1>
+  <form action="/" method="POST" enctype="multipart/form-data">
+    <input type="file" name="excelFile" accept=".xlsx, .xls">
+    <button type="submit">Upload</button>
+  </form>
+</body>
+</html>
